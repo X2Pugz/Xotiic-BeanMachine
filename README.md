@@ -293,4 +293,4 @@ ensure Xotiic-BeanMachine
 			image = "bjavachipfrappuccino.png",
 		}
 	},
-	 ```
+```
