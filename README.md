@@ -55,7 +55,7 @@ ensure Xotiic-BeanMachine
 ```
 
 
-### Item installation
+### OX Items installation
 
 - Add the images to your inventory folder
 - for example: `ox_inventory/web/images`
