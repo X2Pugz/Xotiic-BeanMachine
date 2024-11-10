@@ -258,33 +258,7 @@ ensure Xotiic-BeanMachine
 		}
 	},
 	```
-### Item installation
 
-- add these to ur qb-core/shared/items.lua if using qb inventory
-```lua
--- Xoticc-BeanMachine
-['bdonut'] 	         			 = {['name'] = 'bdonut', 						['label'] = 'Donut', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bdonut.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Tasty Donut'},
-['bbanana'] 	         		 = {['name'] = 'bbanana', 						['label'] = 'Banana', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bbanana.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Banana'},
-['borange'] 	         		 = {['name'] = 'borange', 						['label'] = 'Orange', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'borange.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Orange'},
-['bapple'] 	         			 = {['name'] = 'bapple', 						['label'] = 'Apple', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bapple.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Red Apple'},
-['bmuffin'] 	         		 = {['name'] = 'bmuffin', 						['label'] = 'Muffin', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bmuffin.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Muffin'},
-['bchocolatemuffin'] 	         = {['name'] = 'bchocolatemuffin', 				['label'] = 'Chocolate Muffin', 		['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bchocolatemuffin.png', 	['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Chocolate Muffin'},
-['bberrymuffin'] 	         	 = {['name'] = 'bberrymuffin', 					['label'] = 'Berry Muffin', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bberrymuffin.png', 		['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Berry Muffin'},
-['bsprite'] 	         	 	 = {['name'] = 'bsprite', 						['label'] = 'Sprite', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bsprite.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cup Fill With Sprite'},
-['bcocacola'] 	         	 	 = {['name'] = 'bcocacola', 					['label'] = 'CocaCola', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bcocacola.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cup Fill With Cocacola'},
-['bpepper'] 	         	 	 = {['name'] = 'bpepper', 						['label'] = 'DR.Pepper', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bpepper.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cup Fill With DR.Pepper'},
-['blemonslush'] 	         	 = {['name'] = 'blemonslush', 					['label'] = 'Lemon Slush', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'blemonslush.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cup Fill With Lemon Slush'},
-['borangeslush'] 	         	 = {['name'] = 'borangeslush', 					['label'] = 'Orange Slush', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'borangeslush.png', 		['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cup Fill With Orange Slush'},
-['bcloudcafe'] 	     		 	 = {['name'] = 'bcloudcafe', 					['label'] = 'Cloud Cafe', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bcloudcafe.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Cloud Cafe'},
-['bjavachipfrappuccino'] 	     = {['name'] = 'bjavachipfrappuccino', 			['label'] = 'Java Chip Frappuccino', 	['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bjavachipfrappuccino.png', ['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Java Chip Frappuccino'},
-['bhoneyhazelnutoatlatte'] 	     = {['name'] = 'bhoneyhazelnutoatlatte', 		['label'] = 'Honey Hazelnut Oat Latte', ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bhoneyhazelnutoatlatte.png',['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Honey Hazelnut Oat Latte'},
-['bstrawberrycreamfrappuccino']  = {['name'] = 'bstrawberrycreamfrappuccino', 	['label'] = 'Strawberry Cream Frappuccino', ['weight'] = 1000, 	['type'] = 'item', 		['image'] = 'bstrawberrycreamfrappuccino.png',['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Strawberry Cream Frappuccino'},
-['bicedcaffelatte'] 	         = {['name'] = 'bicedcaffelatte', 				['label'] = 'Iced Caffe Latte', 		['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bicedcaffelatte.png', 		['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Iced Caffe Latte'},
-['bespresso'] 	     		 	 = {['name'] = 'bespresso', 					['label'] = 'Espresso', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bespresso.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Espresso'},
-['bespressomacchiato'] 	     	 = {['name'] = 'bespressomacchiato', 			['label'] = 'Espresso Macchiato', 		['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bespressomacchiato.png', 	['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Espresso Macchiato'},
-['bcaramelfrappucino'] 	     	 = {['name'] = 'bcaramelfrappucino', 			['label'] = 'Caramel Frappucino', 		['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bcaramelfrappucino.png', 	['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Caramel Frappucino'},
-['bstrawberryvanillaoatlatte'] 	 = {['name'] = 'bstrawberryvanillaoatlatte',	['label'] = 'Strawberry Vanilla Oat Latte',['weight'] = 1000, 	['type'] = 'item', 		['image'] = 'bstrawberryvanillaoatlatte.png',['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Strawberry Vanilla Oat Latte'},
-```
 
 - add this to ur qb-core/shared/jobs.lua
 ```lua
