@@ -28,7 +28,7 @@ ensure Xotiic-BeanMachine
   - for example: `[qb] > qb-inventory > html > images`
 - **This script supports automatic installation of items to items.lua with newer QBCore exports**
   - You still need to install images
-- If you're having issues or your core doesn't support this then, put these lines in your items.lua
+
 
 ```lua
 -- Xotiic-BeanMachine
