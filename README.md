@@ -26,7 +26,6 @@ ensure Xotiic-BeanMachine
 
 - Add the images to your inventory folder
   - for example: `[qb] > qb-inventory > html > images`
-- **This script supports automatic installation of items to items.lua with newer QBCore exports**
   - You still need to install images
 
 
@@ -54,3 +53,244 @@ ensure Xotiic-BeanMachine
 ['bcaramelfrappucino'] 	     	 = {['name'] = 'bcaramelfrappucino', 			['label'] = 'Caramel Frappucino', 		['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bcaramelfrappucino.png', 	['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Caramel Frappucino'},
 ['bstrawberryvanillaoatlatte'] 	 = {['name'] = 'bstrawberryvanillaoatlatte',	['label'] = 'Strawberry Vanilla Oat Latte',['weight'] = 1000, 	['type'] = 'item', 		['image'] = 'bstrawberryvanillaoatlatte.png',['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Strawberry Vanilla Oat Latte'},
 ```
+
+
+### Item installation
+
+- Add the images to your inventory folder
+- for example: `ox_inventory/web/images`
+- You still need to install images
+
+```lua
+-- Xotiic-BeanMachine
+["bchocolatemuffin"] = {
+		label = "Chocolate Muffin",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Chocolate Muffin",
+		client = {
+			image = "bchocolatemuffin.png",
+		}
+	},
+
+	["blemonslush"] = {
+		label = "Lemon Slush",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cup Fill With Lemon Slush",
+		client = {
+			image = "blemonslush.png",
+		}
+	},
+
+	["bberrymuffin"] = {
+		label = "Berry Muffin",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Berry Muffin",
+		client = {
+			image = "bberrymuffin.png",
+		}
+	},
+
+	["bstrawberryvanillaoatlatte"] = {
+		label = "Strawberry Vanilla Oat Latte",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Strawberry Vanilla Oat Latte",
+		client = {
+			image = "bstrawberryvanillaoatlatte.png",
+		}
+	},
+
+	["bstrawberrycreamfrappuccino"] = {
+		label = "Strawberry Cream Frappuccino",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Strawberry Cream Frappuccino",
+		client = {
+			image = "bstrawberrycreamfrappuccino.png",
+		}
+	},
+
+    ["bpepper"] = {
+		label = "DR.Pepper",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cup Fill With DR.Pepper",
+		client = {
+			image = "bpepper.png",
+		}
+	},
+
+	["bespresso"] = {
+		label = "Espresso",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Espresso",
+		client = {
+			image = "bespresso.png",
+		}
+	},
+
+	["bdonut"] = {
+		label = "Donut",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tasty Donut",
+		client = {
+			image = "bdonut.png",
+		}
+	},
+
+	["bmuffin"] = {
+		label = "Muffin",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Muffin",
+		client = {
+			image = "bmuffin.png",
+		}
+	},
+
+    ["borangeslush"] = {
+		label = "Orange Slush",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cup Fill With Orange Slush",
+		client = {
+			image = "borangeslush.png",
+		}
+	},
+
+    ["borange"] = {
+		label = "Orange",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Orange",
+		client = {
+			image = "borange.png",
+		}
+	},
+
+	["bcocacola"] = {
+		label = "CocaCola",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cup Fill With Cocacola",
+		client = {
+			image = "bcocacola.png",
+		}
+	},
+
+	["bbanana"] = {
+		label = "Banana",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Banana",
+		client = {
+			image = "bbanana.png",
+		}
+	},
+
+    ["bcloudcafe"] = {
+		label = "Cloud Cafe",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cloud Cafe",
+		client = {
+			image = "bcloudcafe.png",
+		}
+	},
+
+	["bhoneyhazelnutoatlatte"] = {
+		label = "Honey Hazelnut Oat Latte",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Honey Hazelnut Oat Latte",
+		client = {
+			image = "bhoneyhazelnutoatlatte.png",
+		}
+	},
+
+    ["bcaramelfrappucino"] = {
+		label = "Caramel Frappucino",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Caramel Frappucino",
+		client = {
+			image = "bcaramelfrappucino.png",
+		}
+	},
+
+	["bapple"] = {
+		label = "Apple",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Red Apple",
+		client = {
+			image = "bapple.png",
+		}
+	},
+
+    ["bespressomacchiato"] = {
+		label = "Espresso Macchiato",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Espresso Macchiato",
+		client = {
+			image = "bespressomacchiato.png",
+		}
+	},
+
+    	["bsprite"] = {
+		label = "Sprite",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cup Fill With Sprite",
+		client = {
+			image = "bsprite.png",
+		}
+	},
+
+	["bicedcaffelatte"] = {
+		label = "Iced Caffe Latte",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Iced Caffe Latte",
+		client = {
+			image = "bicedcaffelatte.png",
+		}
+	},
+
+	["bjavachipfrappuccino"] = {
+		label = "Java Chip Frappuccino",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Java Chip Frappuccino",
+		client = {
+			image = "bjavachipfrappuccino.png",
+		}
+	},
+	 ```
