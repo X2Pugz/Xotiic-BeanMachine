@@ -259,7 +259,7 @@ ensure Xotiic-BeanMachine
 	},
 	```
 
-
+### Job installation
 - add this to ur qb-core/shared/jobs.lua
 ```lua
 ["beanmachine"] = {
