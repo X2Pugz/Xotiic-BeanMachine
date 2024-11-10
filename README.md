@@ -258,8 +258,16 @@ ensure Xotiic-BeanMachine
 		}
 	},
 	```
+- done
 
-	
+
+
+
+
+
+
+
+
 ### Item installation Qb
 - add these to ur qb-core/shared/items.lua if using qb-inventory
 ```lua
