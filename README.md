@@ -267,9 +267,9 @@ ensure Xotiic-BeanMachine
 
 
 
-### Item installation Qb
+### Item installation
 
-- add these to ur qb-core/shared/items.lua if using qb-inventory
+- add these to ur qb-core/shared/items.lua if using qb inventory
 ```lua
 -- Xoticc-BeanMachine
 ['bdonut'] 	         			 = {['name'] = 'bdonut', 						['label'] = 'Donut', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bdonut.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Tasty Donut'},
